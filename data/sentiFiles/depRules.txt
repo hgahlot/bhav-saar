@@ -1,0 +1,15 @@
+NN -> amod -> JJ
+NN -> nsubj -> JJ
+NN -> dobj -> VB
+NNS -> amod -> JJ
+NNS -> nsubj -> JJ
+NN -> prep -> NN
+NN -> dobj -> VBP
+NNP -> nsubj -> JJ
+NN -> amod -> JJS
+NNS -> amod -> JJS
+NNS -> amod -> JJ -> amod -> JJ
+NN -> det -> DT
+NN -> dobj -> VBZ
+NN -> nsubj -> VBZ -> acomp -> JJ
+NN -> nsubj -> NN -> amod -> JJ

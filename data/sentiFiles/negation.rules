@@ -1,0 +1,9 @@
+# '*' and '+' should be preceded by a single digit indicating the number of times
+# the preceding expression should repeat.
+# Relations separated by '|' should not be enclosed in braces.
+# Every INTen (-> or INT or START or END, etc.) must be delimited by space except the 
+# '|' delimited relation string.
+# ')' must be followed by 'digit*' or 'digit+' or '?'.
+START -> ( nsubj|dobj|nn|poss|prep -> INT -> ) ? ccomp -> INT -> neg -> END
+START -> neg -> INT -> ccomp -> INT -> ( nsubj|dobj -> ) ? END
+START -> neg -> ( INT -> dobj -> ) 2* END
